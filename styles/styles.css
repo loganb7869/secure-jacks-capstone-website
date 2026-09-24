@@ -1,1 +1,28 @@
 /* styles.css for Secure Jacks Website */
+.teamLogo {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+}
+
+.memberImage {
+    width: 150px;
+    object-fit: cover;
+    display: block;
+    margin: 10px auto 0;
+}
+
+header {
+    background-color: #003466;
+    color: white;
+}
+
+body {
+    background-color: rgb(2, 2, 145); 
+    color: white;
+}
+
+.card {
+    color: white;
+    background-color: #030380;
+}
