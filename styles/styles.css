@@ -27,3 +27,189 @@ body {
     color: #222831;
     background-color: #EEE5D7;
 }
+
+/* Development cards */
+.development-pipeline {
+    position: relative;
+    max-width: 850px;
+    margin: 0 auto;
+}
+
+/* Individual pipeline step */
+.pipeline-step {
+    display: flex;
+    align-items: center;
+    position: relative;
+    z-index: 2;
+}
+
+/* Step number */
+.step-number {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    min-width: 70px;
+    height: 70px;
+
+    border: 3px solid #000;
+    border-radius: 50%;
+
+    background-color: white;
+
+    font-size: 20px;
+    font-weight: bold;
+
+    z-index: 3;
+}
+
+/* Development cards */
+.development-card {
+    flex: 1;
+    margin-left: 25px;
+    border-radius: 10px;
+}
+
+/* Card titles */
+.development-card .card-title {
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+/* Card paragraphs */
+.development-card .card-text {
+    margin-bottom: 0;
+}
+
+/* Arrow between steps */
+.pipeline-arrow {
+    width: 70px;
+    text-align: center;
+
+    font-size: 35px;
+    font-weight: bold;
+
+    height: 65px;
+    line-height: 65px;
+
+    position: relative;
+    z-index: 3;
+}
+
+/* Envisioned Solution */
+.solution-flow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+}
+
+.solution-step {
+    flex: 1;
+    min-width: 120px;
+}
+
+.solution-step h5 {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.solution-step p {
+    font-size: 14px;
+    margin-bottom: 0;
+}
+
+.solution-arrow {
+    font-size: 30px;
+    font-weight: bold;
+    flex-shrink: 0;
+}
+
+.solution-details {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.solution-details > p {
+    line-height: 1.6;
+}
+
+.solution-detail {
+    margin-top: 20px;
+}
+
+.solution-detail h6 {
+    margin-bottom: 5px;
+}
+
+.solution-detail p {
+    margin-bottom: 0;
+    line-height: 1.6;
+}
+
+/* Mobile/IOS Development process*/
+@media (max-width: 576px) {
+
+    .development-pipeline {
+        padding: 0 10px;
+    }
+
+    .pipeline-step {
+        align-items: flex-start;
+    }
+
+    .step-number {
+        min-width: 55px;
+        width: 55px;
+        height: 55px;
+
+        font-size: 16px;
+    }
+
+    .development-card {
+        margin-left: 15px;
+    }
+
+    .development-card .card-body {
+        padding: 15px;
+    }
+
+    .development-card .card-title {
+        font-size: 17px;
+    }
+
+    .development-card .card-text {
+        font-size: 14px;
+    }
+
+    .pipeline-arrow {
+        width: 55px;
+        height: 45px;
+        line-height: 45px;
+        font-size: 28px;
+    }
+}
+
+/* Mobile/IOS envisioned soluton */
+@media (max-width: 768px) {
+
+    .solution-flow {
+        justify-content: flex-start;
+        overflow-x: auto;
+        padding: 10px 5px 15px;
+    }
+
+    .solution-step {
+        flex: 0 0 130px;
+    }
+
+    .solution-arrow {
+        flex: 0 0 auto;
+        font-size: 24px;
+    }
+
+    .solution-details {
+        width: 100%;
+    }
+}
