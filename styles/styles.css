@@ -13,16 +13,16 @@
 }
 
 header {
-    background-color: #003466;
+    background-color: #222831;
     color: white;
 }
 
 body {
-    background-color: rgb(2, 2, 145); 
-    color: white;
+    background-color: #DFD0B8; 
+    color: #222831;
 }
 
 .card {
-    color: white;
-    background-color: #030380;
+    color: #222831;
+    background-color: #EEE5D7;
 }
