@@ -6,7 +6,8 @@
 }
 
 .memberImage {
-    width: 150px;
+    width: 125px;
+    height: 160px;
     object-fit: cover;
     display: block;
     margin: 10px auto 0;

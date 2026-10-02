@@ -5,26 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Secure Jacks Website</title>
    
-    <!-- Bootstrap and personal css -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <!-- Bootstrap and personal CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="./styles/styles.css">
 </head>
-<!--About section and team logo-->
 <body>
     <header class="text-center">
-        <div class="container">
+        <div class="container pt-3">
             <h1 class="display-4 fw-bold">Secure Jacks</h1>
-
             <p class="lead">Smart Home Security Assessment Tool</p>
-
-            <img src="./images/TeamLogo.png" 
-                alt="Secure Jacks Team Logo" class="mb-3 teamLogo">
+            <img src="./images/TeamLogo.png" alt="Secure Jacks Team Logo" class="mb-3 teamLogo">
         </div>
 
         <nav class="navbar navbar-expand-lg bg-dark border-bottom border-body" data-bs-theme="dark">
             <div class="container-fluid">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+                <button class="navbar-toggler mx-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav nav-underline">
@@ -55,35 +51,139 @@
                 <h2>Schedule</h2>
                 <p>Overview of the project timeline.</p>
             </div>
-
-            <div class="g-4">
-                <div class="container mb-3">
-                    <div class="card">
-                        <div class="card-body">
-                            <div class="row text-center">
-                                <p>Schedule...</p>
+ 
+            <div class="container mb-3">
+                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+ 
+                    <!-- Phase 1 -->
+                    <div class="col">
+                        <div class="card card-body h-100">
+                            <div class="d-flex align-items-center gap-2 mb-3">
+                                <span class="badge text-bg-success">Complete</span>
+                                <span class="small text-body-secondary">Weeks 1&ndash;3 | Fall 2026</span>
                             </div>
+                            <h5>Phase 1: Planning &amp; Procurement</h5>
+                            <p>Identify the equipment and resources needed for the capstone and meet with the client to discuss how to obtain them.</p>
+                            <h6>Deliverables</h6>
+                            <ul class="mb-0">
+                                <li>Resource List</li>
+                                <li>Client Procurement Meeting</li>
+                                <li>Budget Estimate</li>
+                            </ul>
                         </div>
                     </div>
+ 
+                    <!-- Phase 2 -->
+                    <div class="col">
+                        <div class="card card-body h-100">
+                            <div class="d-flex align-items-center gap-2 mb-3">
+                                <span class="badge text-bg-secondary">Upcoming</span>
+                                <span class="small text-body-secondary">Weeks 6&ndash;9 | Fall 2026</span>
+                            </div>
+                            <h5>Phase 2: Development</h5>
+                            <p>Host and configure the test network environment and build the initial user interface.</p>
+                            <h6>Deliverables</h6>
+                            <ul class="mb-0">
+                                <li>Hosted Test Environment</li>
+                                <li>User Interface Prototype</li>
+                                <li>Design Review I</li>
+                                <li>Design Review II</li>
+                            </ul>
+                        </div>
+                    </div>
+ 
+                    <!-- Phase 3 -->
+                    <div class="col">
+                        <div class="card card-body h-100">
+                            <div class="d-flex align-items-center gap-2 mb-3">
+                                <span class="badge text-bg-secondary">Upcoming</span>
+                                <span class="small text-body-secondary">Weeks 10&ndash;15 | Fall 2026</span>
+                            </div>
+                            <h5>Phase 3: Core Features</h5>
+                            <p>Implement device discovery, safe risk checks (open ports, unknown devices, network configuration), and the initial Home Security Score.</p>
+                            <h6>Deliverables</h6>
+                            <ul class="mb-0">
+                                <li>Device Discovery &amp; Inventory</li>
+                                <li>Risk Assessment Checks</li>
+                                <li>Prototype Demo</li>
+                            </ul>
+                        </div>
+                    </div>
+ 
+                    <!-- Phase 4 -->
+                    <div class="col">
+                        <div class="card card-body h-100">
+                            <div class="d-flex align-items-center gap-2 mb-3">
+                                <span class="badge text-bg-secondary">Upcoming</span>
+                                <span class="small text-body-secondary">Weeks 1&ndash;7 | Spring 2027</span>
+                            </div>
+                            <h5>Phase 4: Feature Completion</h5>
+                            <p>Finish the plain-English report, prioritized recommendations, visual network map, and dashboard.</p>
+                            <h6>Deliverables</h6>
+                            <ul class="mb-0">
+                                <li>Home Security Report Card</li>
+                                <li>Visual Network Map</li>
+                                <li>Design Review III</li>
+                            </ul>
+                        </div>
+                    </div>
+ 
+                    <!-- Phase 5 -->
+                    <div class="col">
+                        <div class="card card-body h-100">
+                            <div class="d-flex align-items-center gap-2 mb-3">
+                                <span class="badge text-bg-secondary">Upcoming</span>
+                                <span class="small text-body-secondary">Weeks 8&ndash;11 | Spring 2027</span>
+                            </div>
+                            <h5>Phase 5: Testing &amp; Refinement</h5>
+                            <p>Test against the IoT lab environment, verify the accuracy of findings, run usability testing with non-technical users, and implement feedback.</p>
+                            <h6>Deliverables</h6>
+                            <ul class="mb-0">
+                                <li>Software Testing Plan</li>
+                                <li>Usability Testing</li>
+                            </ul>
+                        </div>
+                    </div>
+ 
+                    <!-- Phase 6 -->
+                    <div class="col">
+                        <div class="card card-body h-100">
+                            <div class="d-flex align-items-center gap-2 mb-3">
+                                <span class="badge text-bg-secondary">Upcoming</span>
+                                <span class="small text-body-secondary">Weeks 12&ndash;16 | Spring 2027</span>
+                            </div>
+                            <h5>Phase 6: Product Delivery</h5>
+                            <p>Complete the as-built report and codebase documentation, prepare the demo environment, and deliver the product to the client.</p>
+                            <h6>Deliverables</h6>
+                            <ul class="mb-0">
+                                <li>As-Built Report</li>
+                                <li>Final Presentation</li>
+                                <li>Product Delivery</li>
+                            </ul>
+                        </div>
+                    </div>
+ 
                 </div>
             </div>
         </section>
-
+        
         <!-- Resources section-->
         <section>
             <div class="text-center py-3">
                 <h2>Resources</h2>
                 <p>Overview of the project's main resources.</p>
             </div>
-
-            <div class="g-4">
-                <div class="container mb-3">
-                    <div class="card">
-                        <div class="card-body">
-                            <div class="row text-center">
-                                <p>Resources...</p>
-                            </div>
-                        </div>
+ 
+            <div class="container mb-3">
+                <div class="card">
+                    <div class="card-body">
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item"><strong>Router</strong> &ndash; Self-contained access point for an isolated test network.</li>
+                            <li class="list-group-item"><strong>Ethernet Cables</strong> &ndash; Wired connections between the router and development machines.</li>
+                            <li class="list-group-item"><strong>IoT Devices</strong> &ndash; Consumer smart home devices (smart plugs, lights, cameras, etc.) to scan and assess.</li>
+                            <li class="list-group-item"><strong>USB Drive</strong> &ndash; Portable storage for the application, test data, and demo files.</li>
+                            <li class="list-group-item"><strong>Wi-Fi Plan</strong> &ndash; Internet service for the test network.</li>
+                        </ul>
                     </div>
                 </div>
             </div>
@@ -95,14 +195,13 @@
                 <h2>Budget</h2>
                 <p>Overview of the project's budget.</p>
             </div>
-
-            <div class="g-4">
-                <div class="container mb-3">
-                    <div class="card">
-                        <div class="card-body">
-                            <div class="row text-center">
-                                <p>Budget...</p>
-                            </div>
+ 
+            <div class="container mb-3">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="row text-center">
+                            <p>The project budget is at the client's discretion. He has provided an amount for the team to work within.</p>
+                            <p class="mb-0">Based on the resources reviewed with the client so far, total costs are <strong>not expected to exceed $600</strong>.</p>
                         </div>
                     </div>
                 </div>
@@ -115,20 +214,35 @@
                 <h2>Documentation</h2>
                 <p>Overview of the project's documentation.</p>
             </div>
-
-            <div class="g-4">
-                <div class="container mb-3">
-                    <div class="card">
-                        <div class="card-body">
-                            <div class="row text-center">
-                                <p>Documentation...</p>
+ 
+            <div class="container mb-3">
+                <div class="row row-cols-1 row-cols-md-2 g-4">
+ 
+                    <!-- Team Inventory -->
+                    <div class="col">
+                        <div class="card h-100">
+                            <div class="card-body d-flex flex-column">
+                                <h5 class="card-title">Team Inventory</h5>
+                                <h6 class="card-subtitle mb-2 text-body-secondary">September 16, 2026</h6>
+                                <p class="card-text">An introduction to each team member, including their background, relevant coursework, experience, and skills.</p>
                             </div>
                         </div>
                     </div>
+ 
+                    <!-- Team Standards -->
+                    <div class="col">
+                        <div class="card h-100">
+                            <div class="card-body d-flex flex-column">
+                                <h5 class="card-title">Team Standards</h5>
+                                <h6 class="card-subtitle mb-2 text-body-secondary">September 25, 2026</h6>
+                                <p class="card-text">Team roles, meeting expectations, decision-making and conduct policies, tools, and the team's self-review process.</p>
+                            </div>
+                        </div>
+                    </div>
+ 
                 </div>
             </div>
         </section>
-
         <!-- Other information section-->
         <section>
             <div class="text-center py-3">
@@ -136,18 +250,19 @@
                 <p>Overview of the project's other information.</p>
             </div>
 
-            <div class="g-4">
-                <div class="container mb-3">
-                    <div class="card">
-                        <div class="card-body">
-                            <div class="row text-center">
-                                <p>Other Information...</p>
-                            </div>
+            <div class="container mb-3">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="row text-center">
+                            <p class="mb-0">Other Information...</p>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
     </main>
+
+    <!-- Required for mobile navbar toggling -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
