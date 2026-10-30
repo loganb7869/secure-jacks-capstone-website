@@ -148,6 +148,17 @@ body {
     line-height: 1.6;
 }
 
+.btn-documentation {
+    background-color: #795c43;
+    color: white;
+    border: none;
+}
+
+.btn-documentation:hover {
+    background-color: #604630;
+    color: white;
+}
+
 /* Mobile/IOS Development process*/
 @media (max-width: 576px) {
 
